@@ -48,12 +48,21 @@
       .subheader {
         font-size: 2rem;
         opacity: 0;
+
+        @media(max-width: 400px) {
+          margin: 12px;
+        }
       }
 
       .header {
         font-size: 4rem;
         opacity: 0;
         margin: 20px;
+
+        @media(max-width: 400px) {
+          line-height: 3.5rem;
+          text-align: center;
+        }
       }
 
       .caption {
@@ -139,7 +148,7 @@
           </div>
           <div class="rounded-group__right">
             <p>
-              I'm an experinced developer with hands-on experience building dynamic, 
+              I'm an experienced developer with hands-on experience building dynamic, 
               high-performance web applications using React and Next.js. 
               Proficient in crafting responsive user interfaces, optimizing performance, and leveraging Next.js's server-side rendering and static site generation capabilities for improved SEO and faster load times. 
               Strong understanding of React hooks, context, and state management, along with a focus on building scalable, maintainable codebases.
